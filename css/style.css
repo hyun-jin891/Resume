@@ -399,6 +399,9 @@ section + section {
 
 .entry-body h3 {
   font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .entry-body p,
