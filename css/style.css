@@ -228,14 +228,20 @@ h3 {
   vertical-align: middle;
 }
 
-.site-icon {
+.icon-link img.site-icon,
+.icon-link img.github-icon,
+img.site-icon,
+img.github-icon {
   width: 16px !important;
   height: 16px !important;
   max-width: 16px !important;
   max-height: 16px !important;
-  object-fit: contain;
   display: inline-block !important;
   vertical-align: middle;
+}
+
+.site-icon {
+  object-fit: contain;
   border-radius: 4px;
   background: #fff;
 }
