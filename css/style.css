@@ -99,6 +99,10 @@ h3 {
   position: relative;
   padding: 36px 40px 28px;
   border-bottom: 1px solid var(--line);
+  background: #ffffff;
+}
+
+[data-theme="dark"] .site-header {
   background: var(--paper);
 }
 
@@ -184,6 +188,7 @@ h3 {
 .contact-row {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 8px 16px;
   padding: 0;
   margin: 0;
@@ -199,7 +204,42 @@ h3 {
 .contact-row li + li::before {
   content: "·";
   margin-right: 16px;
-  color: var(--gold);
+  color: #b0b0b0;
+}
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  color: inherit;
+}
+
+.icon-link svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.icon-link:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.github-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.entry-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px !important;
+  font-size: 13px;
+}
+
+.entry-links .icon-link {
+  color: var(--ink);
 }
 
 .layout {
@@ -349,11 +389,6 @@ section + section {
 
 .entry-body ul {
   padding-left: 18px;
-}
-
-.entry-links {
-  margin-top: 8px !important;
-  font-size: 13px;
 }
 
 .pub-list {
