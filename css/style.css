@@ -240,6 +240,11 @@ h3 {
   background: #fff;
 }
 
+.site-icon-prometheus {
+  object-fit: cover;
+  background: #000;
+}
+
 .entry-links {
   display: flex !important;
   flex-direction: row;
