@@ -229,14 +229,14 @@ h3 {
 }
 
 .site-icon {
-  width: 40px !important;
-  height: 40px !important;
-  max-width: 40px !important;
-  max-height: 40px !important;
+  width: 16px !important;
+  height: 16px !important;
+  max-width: 16px !important;
+  max-height: 16px !important;
   object-fit: contain;
   display: inline-block !important;
   vertical-align: middle;
-  border-radius: 12px;
+  border-radius: 4px;
   background: #fff;
 }
 
