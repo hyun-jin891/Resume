@@ -228,6 +228,22 @@ h3 {
   vertical-align: middle;
 }
 
+.site-icon {
+  width: 28px !important;
+  height: 28px !important;
+  max-width: 28px !important;
+  max-height: 28px !important;
+  object-fit: contain;
+  display: inline-block !important;
+  vertical-align: middle;
+}
+
+.site-icon-prometheus {
+  border-radius: 6px;
+  object-fit: cover;
+  background: #000;
+}
+
 .entry-links {
   display: flex !important;
   flex-direction: row;
