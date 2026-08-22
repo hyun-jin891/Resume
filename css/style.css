@@ -400,11 +400,35 @@ section + section {
   width: 100%;
   max-width: 158px;
   height: auto;
-  margin-top: 8px;
   display: block;
   border-radius: 6px;
   border: 1px solid var(--line);
   background: #fff;
+}
+
+.entry--thumb {
+  grid-template-rows: auto auto;
+  align-items: start;
+}
+
+.entry--thumb .entry-side-year {
+  grid-column: 1;
+  grid-row: 1;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--gold);
+}
+
+.entry--thumb .entry-thumb {
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: 0;
+}
+
+.entry--thumb .entry-body {
+  grid-column: 2;
+  grid-row: 2;
+  align-self: start;
 }
 
 .entry-body h3 {
@@ -581,6 +605,18 @@ section + section {
     position: static;
     justify-content: flex-end;
     margin-bottom: 16px;
+  }
+
+  .entry--thumb .entry-side-year,
+  .entry--thumb .entry-thumb,
+  .entry--thumb .entry-body {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .entry--thumb .entry-thumb {
+    max-width: 220px;
+    margin: 8px 0;
   }
 }
 
